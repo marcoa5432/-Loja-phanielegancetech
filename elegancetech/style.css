@@ -1,0 +1,19 @@
+*
+body {
+    background-color:#eacf3d;
+
+}
+
+.checkbox-container {
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+.itens-box {
+    display: flex;
+    padding: 10px;
+    flex-direction: column-reverse;
+    align-items: center;
+}
