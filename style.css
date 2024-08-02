@@ -1,8 +1,128 @@
 *
 body {
-    background-color:black;
+        background-color: black;
+    }
+    
+    .checkbox-container {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+    
+    .slider :hover {
+        transition: 0.4s;
+    }
+    
+    .itens-box {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .descrição-superio {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(90deg, black, #ccb638, black);
+        color: white;
+    }
+    
+    .botao-banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .botao-buscando {
+        display: flex;
+        background-color: white;
+        justify-content: center;
+        height: 23px;
+        width: 215px;
+        padding: 11px;
+        border-radius: 25px;
+    }
+    
+    .botao-rastrear {
+        color: white;
+    }
+    
+    .botao-carrinho {
+        color: white;
+    } 
+    
+    .rodape-lista {
+        color: white;
+    }
+    
+    /* Media Queries for Responsiveness */
+    @media (max-width: 1200px) {
+        .checkbox-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .itens-box {
+            flex-direction: column;
+        }
+    
+        .descrição-superio {
+            flex-direction: column;
+            padding: 10px;
+        }
+    
+        .botao-banner {
+            flex-direction: column;
+        }
+    
+        .botao-buscando {
+            width: 180px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .checkbox-container {
+            padding: 15px;
+        }
+    
+        .descrição-superio {
+            padding: 8px;
+            text-align: center;
+        }
+    
+        .botao-banner {
+            padding: 10px;
+        }
+    
+        .botao-buscando {
+            width: 150px;
+            padding: 8px;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .checkbox-container {
+            padding: 10px;
+        }
+    
+        .descrição-superio {
+            padding: 5px;
+            text-align: center;
+        }
+    
+        .botao-banner {
+            padding: 5px;
+        }
+    
+        .botao-buscando {
+            width: 120px;
+            padding: 5px;
+        }
+    }
 
-}
 
 .checkbox-container {
     background-color:white;
@@ -16,6 +136,7 @@ body {
 }
 .itens-box {
     display: flex;
+    align-items: center;
     padding: 10px;
     flex-direction: column-reverse;
     align-items: center;
