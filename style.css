@@ -52,6 +52,22 @@
      
 }
 
+.image-relogio {
+    width: 180px;
+}
+
+.image-som {
+    width: 240px;
+}
+
+.image-fone {
+    width: 240px;
+}
+
+.image-powerbank {
+    width: 200px;
+}
+
 .box-section {
     list-style-type: none;
     padding: 20px;
@@ -69,4 +85,44 @@
 .box-footer {
     display: flex;
     list-style-type: none;
+}
+/* versão para celular */
+
+@media (max-width: 1200px) {
+    .container-principal {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box-section {
+        margin: 1px;
+        padding: 1px;
+    }
+    
+}
+@media (max-width: 820px) {
+    .box-section {
+        width: 145px;
+        font-size: 20px;
+    }
+
+    .image-fone {
+        width: 170px;
+    }
+
+    .image-powerbank {
+        width: 130px;
+    }
+
+    .image-relogio {
+        width: 120px;
+    }
+
+    .image-som {
+        width: 170px;
+    }
+
+}
+@media (max-width: 576px) {
+        
 }
