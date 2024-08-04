@@ -1,9 +1,8 @@
 *
 .container-header {
-    background: rgb(219, 226, 230);
+    background: rgb(14,14,14);
     display: flex;
     justify-content: center;
-    font-size: 200%;
 }
 
 .container-nav {
