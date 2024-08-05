@@ -6,7 +6,7 @@ Com este material, pretendo praticar e compartilhar os conhecimentos adquiridos 
 
 ## Usando Html5 e Css3 ##
 
-Essa pagina está sendo construída com Html, Css.
+# Usando Html5 e Css3, ao contruir o html construindo o codigo ja adicionando as class fazendo a divisão para os container, para quando usar o recurso do flex box, não precisar voltar para o html para adicionar class.
 
 ## Métudo de pagamento ##
 
