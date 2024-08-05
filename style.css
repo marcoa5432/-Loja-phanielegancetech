@@ -124,5 +124,24 @@
 
 }
 @media (max-width: 576px) {
-        
+    .container-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .container-nav {
+        font-size: 50%;
+        padding: 1px;
+    }
+
+    .container-footer {
+        font-size: 70%;
+    }
+
+    .container-header {
+        width: 100%;
+    }
+
 }
