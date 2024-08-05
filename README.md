@@ -1,8 +1,22 @@
 
-## Criação de uma pagina  ##
+## Criação de uma pagina de venda simple   ##
 
-Aqui será criada uma pagina web de venda de produtos eletronicos, com recurso de pagameto.
 
-##Essa pagina será construida com o objetivo de aprimoramento das competencias abordadas 
+Com este material, pretendo praticar e compartilhar os conhecimentos adquiridos durante os cursos de Web Design realizados no Senai. Além disso, irei complementar esses aprendizados com pesquisas e explorações sobre o tema. A prática é essencial para consolidar o conhecimento teórico, e este repositório servirá como um espaço para aplicar e testar essas habilidades. Também estou focado em aprimorar minhas habilidades de documentação, garantindo que cada projeto esteja bem explicado e fácil de entender.
 
-##
+## Usando Html5 e Css3 ##
+
+Essa pagina está sendo construída com Html, Css.
+
+## Métudo de pagamento ##
+
+
+## JavaScript ##
+
+## Onde hospedei ##
+Como tem a finalidade de estudo, essa pagina foi hospedada na Netlify.app 
+o link https://elegancetech.netlify.app
+caso queira ver como esta a visualização 
+
+
+ 
