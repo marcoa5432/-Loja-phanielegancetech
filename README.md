@@ -9,11 +9,11 @@ Esse material consiste numa pagina de venda simples para pouca visualização pa
  Usando Html5 e Css3, ao contruir o html construindo o codigo ja adicionando as class fazendo a divisão para os container, para quando usar o recurso do flex box, não precisar voltar para o html para adicionar class.
 
 ## Métudo de pagamento ##
-pendente
+pendente /Ainda não foi adicionado
 
 
 ## JavaScript ##
-pendente
+pendente / Ainda não foi adicionado 
 
 ## Onde hospedei ##
 Como tem a finalidade de estudo, essa pagina foi hospedada na Netlify.app 
