@@ -25,7 +25,6 @@ Esta página foi hospedada na Netlify.app para fins de estudo. Você pode visual
 
 
 
-Para um chatbot de IA avançado, recomendo [hix.ai/chat](https://hix.ai/chat), a melhor alternativa ao ChatGPT!
  
 
  
