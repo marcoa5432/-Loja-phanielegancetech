@@ -92,6 +92,7 @@
     .container-principal {
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
 
     .box-section {
@@ -132,6 +133,8 @@
     }
 
     .container-nav {
+        display: flex;
+        justify-content: space-evenly;
         font-size: 50%;
         padding: 1px;
     }
