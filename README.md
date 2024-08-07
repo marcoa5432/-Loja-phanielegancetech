@@ -21,7 +21,7 @@ Pendente - Ainda não foi adicionado.
 
 ## Hospedagem
 
-Esta página foi hospedada na Netlify.app para fins de estudo. Você pode visualizar a página no seguinte link:(https://elegancetech.netlify.app)
+Esta página foi hospedada na Netlify.app para fins de estudo. Você pode visualizar a página no seguinte link:https://elegancetech.netlify.app
 
 
 
