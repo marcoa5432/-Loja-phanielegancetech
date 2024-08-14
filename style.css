@@ -129,18 +129,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
+        width: 90%;
     }
 
     .container-nav {
         display: flex;
         justify-content: space-evenly;
-        font-size: 50%;
+        font-size: 100%;
         padding: 1px;
     }
 
     .container-footer {
-        font-size: 70%;
+        font-size: 100%;
     }
 
     .container-header {
