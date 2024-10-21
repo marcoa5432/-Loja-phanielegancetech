@@ -88,6 +88,11 @@
     display: flex;
     list-style-type: none;
 }
+
+.whats-app {
+    height: 60px;
+    border-radius: 50px;
+}
 /* versão para celular */
 
 @media (max-width: 1200px) {
