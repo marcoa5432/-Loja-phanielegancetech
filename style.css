@@ -11,11 +11,13 @@
     justify-content: space-evenly;
     font-size: 150%;
     padding: 10px;
+    
 }
 
 .box-nav {
     list-style-type: none;
     display: flex;
+    display: contents;
     justify-items: center;
 }
 
