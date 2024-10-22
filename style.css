@@ -15,6 +15,7 @@
 }
 
 .box-nav {
+    color: black;
     list-style-type: none;
     display: flex;
     display: contents;
