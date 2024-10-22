@@ -9,7 +9,7 @@ A prática é essencial para consolidar o conhecimento teórico, e este reposit�
 
 ### HTML5 e CSS3
 
-A estrutura da página é construída com HTML5 e estilizada com CSS3. Durante a criação do HTML, as classes já são atribuídas e as divisões feitas para os contêineres, facilitando o uso de recursos como o Flexbox sem a necessidade de voltar ao HTML para adicionar classes posteriormente. Foi adicionado mais paginas para cada item no caso especificados como Relogio, Fone, Caixa de som , e Carregador, ao clicar em cada item terá os modelos disponivel para divulgação, tambem será adicionado o telefone de contato do vendedor para o contato direto com WhatsApp.
+A estrutura da página é construída com HTML5 e estilizada com CSS3. Durante a criação do HTML, as classes já são atribuídas e as divisões feitas para os contêineres, facilitando o uso de recursos como o Flexbox sem a necessidade de voltar ao HTML para adicionar classes posteriormente. Foi adicionado  paginas para cada item no caso especificados como Relogio, Fone, Caixa de som  e Carregador, ao clicar em cada item terá os modelos disponivel para divulgação, tambem será adicionado o telefone de contato do vendedor para o contato direto com WhatsApp.
 
 
 
