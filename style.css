@@ -72,6 +72,8 @@
 }
 
 .box-section {
+    color: black;
+    display: contents;
     list-style-type: none;
     padding: 20px;
     margin: 10px;
