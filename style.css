@@ -15,9 +15,9 @@
 }
 
 .box-nav {
+    display: flex;
     color: black;
     list-style-type: none;
-    display: flex;
     display: contents;
     justify-items: center;
 }
@@ -60,15 +60,15 @@
 }
 
 .image-som {
-    width: 240px;
+    width: 210px;
 }
 
 .image-fone {
-    width: 240px;
+    width: 200px;
 }
 
 .image-powerbank {
-    width: 200px;
+    width: 170px;
 }
 
 .box-section {
@@ -89,6 +89,7 @@
 
 .box-footer {
     display: flex;
+    justify-content: end;
     list-style-type: none;
 }
 
@@ -113,6 +114,7 @@
 }
 @media (max-width: 820px) {
     .box-section {
+        flex-direction: column;
         width: 145px;
         font-size: 20px;
     }
