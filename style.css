@@ -1,4 +1,14 @@
 *
+
+html, body {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+
+}
 .container-header {
     background: rgb(14,14,14);
     display: flex;
@@ -100,9 +110,20 @@
 /* versão para celular */
 
 @media (max-width: 1200px) {
-    .container-principal {
-        flex-direction: column;
+    html {
         width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-principal {
+        max-width: 100vw;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
