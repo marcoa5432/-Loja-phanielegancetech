@@ -155,6 +155,12 @@ html, body {
         display:grid;
         white-space-collapse: preserve;
     }
+    .box-imagem-vededora {
+        max-width: 100%;
+    }
+    .box-descrição{
+         
+    }
 
     .container-principal {
         max-width: 100vw;
