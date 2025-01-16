@@ -28,6 +28,7 @@ html, body {
     display: flex;
     color: rgb(235, 218, 69);
     list-style-type: none;
+    text-decoration: none;
     justify-items: center;
     align-items: center;
 }
@@ -104,12 +105,45 @@ html, body {
     display: flex;
     justify-content: end;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .whats-app {
     height: 60px;
     border-radius: 50px;
 }
+
+.container-vendedora {
+    background: linear-gradient(to top, #f3db06 30%, #000000);
+}
+
+.box-imagem-vededora {
+    display: flex;
+    justify-content: center;
+    border-radius: 45px;
+    margin: 30px;
+}
+
+.box-title {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.box-descrição {
+    display: flex;
+    justify-content: center;
+}
+
+.box-texto {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    margin: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 /* versão para celular */
 
 @media (max-width: 1200px) {
