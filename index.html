@@ -7,10 +7,10 @@
     <title>EleganceTech</title>
 </head>
 <header class="container-header"><img src="elegancetech/image/image.elegacetech.jpg.webp" alt=""></header> 
-<nav class="container-nav">
-    <div>
+<nav id="botao" class="container-nav">
+    <div >
         <ul>
-            <li class="box-nav"> 
+            <li  class="box-nav"> 
                <a class="box-nav" href="biografia.html">Biográfia</a>
             </li> 
         </ul>
@@ -50,7 +50,7 @@
         <article class="box-main">
             <img class="image" src="elegancetech/image/image.elegancetech principal.jpg.webp" alt="">
         </article>
-        <section class="container-section">
+        <section id="section" class="container-section">
             <div>
                 <ul> 
                     <li class="box-section" >
@@ -65,10 +65,8 @@
                 <ul>
                     <li class="box-section" >
                         <a  class="box-section" href="som.html">Som</a>
+                        <img class="image-som" src="elegancetech/image/som.jpg.jpg" alt=""> 
                     </li>
-                     <div>
-                        <img class="image-som" src="elegancetech/image/som.jpg.jpg" alt="">
-                     </div>
                 </ul>
             </div>
             <div>
@@ -94,6 +92,18 @@
         </section>
        </div>
     </main>
+    <script>
+            console.log('botao'); 
+            console.log('section');
+            
+            botao.style.background = 'black'; //Altera a cor de fundo
+            botao.style.color = 'gold'; //Altera a cor da fonte
+            botao.style.border = '2px solid gold'; // Adiciona uma borda
+            botao.style.padding = '10px 20px'; // espaço interno
+
+            section.style.background = 'black';
+            section.style.border = '2px solid gold';
+    </script>
 </body>
 <footer class="container-footer">
     <div>

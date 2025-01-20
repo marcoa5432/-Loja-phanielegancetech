@@ -63,27 +63,64 @@ html, body {
     justify-content: space-evenly;
     font-size: 30px; 
     margin: 20px;
-     
+      
 }
 
 .image-relogio {
     width: 180px;
-    border:double;
+    border-radius: 30%;
+    animation: mover 3s infinite alternate; /*Animação*/
 }
+@keyframes mover { /*Animação*/
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
 
 .image-som {
     width: 210px;
-    border:double;
+    border-radius: 30%;
+    animation: mover 1s infinite alternate; /*Animação*/
+}
+@keyframes mover { /*Animação*/
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(50px);
+    }
 }
 
 .image-fone {
     width: 200px;
-    border:double;
+    border-radius: 30%;
+    animation: mover 2s infinite alternate; /*Animação*/
+}
+@keyframes mover { /*Animação*/
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(50px);
+    }
 }
 
 .image-powerbank {
-    width: 170px;
-    border:double;
+    width: 170px; 
+    border-radius: 30%;
+    animation: mover 4s infinite alternate; /*Animação*/
+}
+@keyframes mover { /*Animação*/
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(50px);
+    }
 }
 
 .box-section {
@@ -96,7 +133,9 @@ html, body {
 .container-footer {
     background: rgb(8, 8, 8);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 1%;
     font-size: 150%;
      
 }
@@ -107,14 +146,24 @@ html, body {
     list-style-type: none;
     text-decoration: none;
 }
-
+/* Obs: Aqui foi adicionado uma animação na foto do Whats App */
 .whats-app {
     height: 60px;
     border-radius: 50px;
+    animation: mover 2s infinite alternate; /*Animação*/
+}
+@keyframes mover { /*Animação*/
+    0% {
+        transform: translatey(0px);
+    }
+    100% {
+        transform: translateY(30px);
+    }
 }
 
+
 .container-vendedora {
-    background: linear-gradient(to top, #f3db06 30%, #000000);
+    background: linear-gradient(to top, #f3db06 30%, #553737);
     max-width: 100vw;
     height: 100%;
     padding: 0;
@@ -158,10 +207,6 @@ html, body {
     .box-imagem-vededora {
         max-width: 100%;
     }
-    .box-descrição{
-         
-    }
-
     .container-principal {
         max-width: 100vw;
         height: 100%;
